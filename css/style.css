@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #999999;
+}
+
+header {
+    padding: 24px 28px 0;
+    display: flex;
+    flex-direction: row;
+    height: 140px;
+    background: linear-gradient(to top, #e5e5e5, #fff);
+}
+
+.container {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.menu {
+    margin: 3rem auto;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    position: relative;
+    left: 45px;
+    top: 1px;
+}
+
+.menu ul li {
+    margin: auto calc(26px / 2);
+    
+}
+
+.menu ul li a {
+    color: #dc002d;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.menu ul li a:hover {
+    color: #666;
+}
+
+#fale-conosco {
+    color: white;
+}
+
+#fale-conosco:hover {
+    color:white;
+}
+
+.btn-fale-conosco {
+    border-radius: 5px;
+    background-color: #dc002d;
+    padding: 8px;
+    text-decoration: none; 
+    transition: .2s;
+}
+
+.btn-fale-conosco:hover {
+    background-color: #666;
+}
+
+.banner-menu {
+    height: 312px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dc002d;
+    color: white;
+    overflow: hidden;
+}
+
+.imgBox {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.textBox {
+    padding: 24px;
+    margin: 0 40px 0 0;
+    text-align: justify;
+}
+
+.textBox hr {
+    border: 1px solid #fff;
+}
+
+.textBox i {
+    cursor: pointer;
+    font-size: 25px;
+    background-color: #a30021ac;
+    padding: 5px 10px;
+    margin-top: 20px;
+    transition: .2s;
+}
+
+.textBox i:hover {
+    background-color: #510010ac;
+}
+.content {
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 30px;
+    background: linear-gradient(to top, #e5e5e5, #fff);
+}
+
+.content h2 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.content p {
+    font-size: 15px;
+}
+
+.content span {
+    margin: 0 5px;
+}
+
+.btn-saiba-mais {
+    border: 1px solid #dcdcdc;
+    color: #dc002d;
+    font-size: 13pt;
+    line-height: 15.6pt;
+    padding: 5px;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.btn-saiba-mais:hover {
+    color: #fff;
+    background-color: #dc002d;
+}
+
+.footer {
+    height: 110px;
+    background-color: #d6d6d6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.footer p {
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.footer h4 {
+    color:#dc002d;
+}
+
+#linha-vertical {
+    height: 70px;
+    border-right: 1px solid #909090;
+}
+
+.ft-col-2 {
+    text-align: right;
+}
